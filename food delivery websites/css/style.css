@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    position: relative;
+}
+#nav::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    width: 104px;
+    height: 102px;
+    margin:3px 6px ;
+    border-radius: 238px;
+
+}
+  ul{
+    
+    
+    display: flex;
+    margin: -96px 125px;
+    list-style: none;
+    text-decoration: none;
+    padding: 24px;
+
+ }
+ #nav ul li{
+    list-style: none;
+    font-size: 3rem;
+
+ }
+ ul li a{
+    display: block;
+    padding: 2px 33px;
+    font-size: 20px;
+    font-family: serif;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(11, 12, 14);
+ }
+  #nav ul li a:hover{
+   background-color: rgb(234, 238, 239);
+   color: black;
+ }
+ #go1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 156px 0px;
+    flex-direction: column;
+    height: 436px;
+ }
+ #go1::before{
+    content: "";
+    background: url('../img/vegetables-1584999_1920.jpg') no-repeat center center/ cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+ }
+ .heading{
+    font-family: serif;
+    color: rgb(6 24 18);
+    font-size: 43px;
+    margin: 31px 45px;
+ }
+ .content{
+
+    
+    display: block;
+    color: black;
+    /* position: absolute; */
+    justify-content: center;
+    padding: 17px;
+    font-size: 1.7rem;
+    margin: 21px 208px;
+}
+ .index{
+   
+    padding: 11px;
+    margin: -3px 30px;
+    border-radius: 20px;
+    font-size: 21px;
+    font-family: serif;
+    color: rgb(65, 51, 31);
+    opacity: 0.8;
+    cursor: pointer;
+
+
+ }
+ div img{
+   height: 16rem;
+   width: 25rem;
+   border-radius: 20px;
+ }
+ .box{
+   /* border: 2px solid red; */
+   padding: 20px;
+   display: block;
+   margin: auto;
+   text-align: center;
+
+   
+
+
+ }
+ .services{
+   /* border: 2px solid black; */
+   text-align: center;
+   display: block;
+   justify-content: center;
+   font-size: 4rem;
+   background-color: #f5ecdf;
+font-family: serif; }
+
+ #services{
+   display: flex;
+   padding: 3px 4px;
+   flex-direction: row;
+   background-color: rgb(228 228 244);
+}
+
+
+   
+ 
+ .click{
+   margin: 2rem; 
+   font-family: emoji;
+   padding: 25px;
+   display: block;
+   margin: auto;
+   border-radius: 108px;
+   width: -webkit-fill-available;
+   font-size: 24px;
+}
+.click{
+   margin: 10px 10px;
+}
+#boss{
+   display: flex;
+   text-align: center;
+justify-content: center;
+margin: -45px 20px;
+padding: 2rem;
+/* background-color: #f2efec; */
+/* border: 2px solid black; */
+
+/* opacity: -1; */
+
+}
+#boss::before{
+   content: "";
+   position:absolute;
+   background: url('../img/pumpkin-1768857.jpg') no-repeat center center/ cover;
+   height: 40%;
+   width: 100%;
+   opacity: 0.9;
+   z-index: -1;
+   /* top: 0px; */
+   /* left: 0px; */
+}
+.head{
+   display: block;
+   justify-content: center;
+   text-align: center;
+   margin: 20px 2px;
+   font-size: 4rem;
+   font-family: serif;
+   background-color: #f5efe4;;
+   
+}
+#entry{
+   margin: -46px 4px;
+   border-radius: 24px;
+   /* border: 2px solid black; */
+   padding: 32px 20px;
+
+}
+.cook{
+   display: block;
+   justify-content: center;
+   text-align: center;
+   margin: 45px 2px;
+   font-size: 4rem;
+   font-family: serif;
+   background-color:#f5efe4;
+}
+.form{
+   padding: 20px 20px;
+   margin: -2px 3px;
+   border-radius: 3px;
+   font-size: 1.7rem;
+   font-family:serif;
+
+}
+.form input{
+   border-radius: 17px;
+   
+}
+#entry::before{
+   content: "";
+   position:absolute;
+   background: url('../img/woo.jpg') no-repeat center center/ cover;
+   height: 62rem;
+   width: 100%;
+   opacity: 1.7;
+   z-index: -1;
+   margin: -35px -25px;
+}
+.fact input {
+   height: 4rem;
+   width: 16rem;
+   padding: 2px 3px;
+   font-size: 20px;
+   font-family: serif;
+   /* margin: 2px; */
+   border-radius: 20px;
+
+}
+.fact label{
+   font-size: 30px;
+   font-family: serif;
+}
+.title{
+   display: block;
+   justify-content: center;
+   text-align: center;
+   margin: 490px -2px;
+}
+.title{
+   background-color: black;
+   color: white;
+}
+
+   
+ 
+ 
+
+ 
