@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 3px 30px;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    
+
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#introsection{
+    height: 60rem;
+    background-color: aquamarine;
+    background: center / cover no-repeat url("/static/girl.jpg");
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+#sponsorsection{
+
+    height: 300px;
+    background-color: #406d8f;}
+
+#footer{
+
+    background-color: rgb(15, 11, 2);
+    height: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#navbar{
+    background-color: #7393ab;
+    padding: 6px 14px;
+
+}
+#introsection div {
+    margin: 60px 44px;
+    
+}
+#introsection div.small{
+    font-size: 35px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+#sponsorsection h2{
+
+    /* height: 300px; */
+    /* background-color: #fdfdce; */
+    text-align: center;
+    padding: 18px 30px ;
+    font-size: 43px;
+
+}
+
+#navbar li a:hover{
+    /* text-decoration: none; */
+    /* padding: 3px 30px; */
+    /* font-size: 1.5rem; */
+    color: white;
+}
+#sponsorsection h2:hover{
+
+    /* height: 300px; */
+    /* background-color: #fdfdce; */
+
+    color: white;
+    background-color: #c3dcdc;
+
+}
+/* our mission */
+
+#missionsection{
+
+    height: 300px;
+    background-color: #8998a2;
+    margin: auto;
+    width: 100%;
+
+
+}
+    
+    #missionsection h2{
+
+       font-size: 40px;
+        text-align: center;
+        padding: 18px 30px ;
+        background-color: #b2bac0;
+    
+    }
+    .card{
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 31%;
+        margin: 10px 15px;
+        height: 200px;
+        display: inline-block;
+        background-color: #c9d8d8
+
+    }
+
+    div.card h3{
+        text-align: center;
+        margin: -1px;
+        font-weight: bold;
+        font-size: 26px;
+    
+    }
+
+    .card-box{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card-img img{
+        height: inherit;
+    }
+    .card-img{
+        height: 150px;
+        padding: 0 14px;
+        
+    }
+    div.card-content p{
+        font-weight: bold;
+        display: flex;
+        text-shadow: #b2bac0;
+        margin-right: 23px;
+        margin-top: 125px;
+    }
+    div.card-content p:hover{
+        /* font-weight: bold; */
+        /* display: flex; */
+        /* text-shadow: #b2bac0; */
+        /* margin-right: 23px; */
+        /* margin-top: 125px; */
+        color: azure;
+    }
+    #missionsection h2:hover{
+
+      color: white;
+      
+      background-color: #c3dcdc;
+     
+     }
+     div.card h3:hover{
+       
+        color: white;
+    
+    }
+    #sponsers{
+        height: 120px;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .img{
+        height: 124%;
+        margin: 30px 14px;
+        margin-left: 58px;
+        border-radius: 36px;
+    }

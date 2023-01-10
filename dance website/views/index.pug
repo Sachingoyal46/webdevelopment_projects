@@ -1,0 +1,80 @@
+//- index.pug
+doctype html
+html
+  head
+    title sachin dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            div#logo 
+                img(src="/static/logo.png")
+                | SDA 
+
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Contact  ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Help]
+
+    section#introsection
+        div.big Welcome to Sachin's Dance academy
+        div.small move on flow
+
+     section#missionsection
+            h2 our mission 
+            div.card
+                h3 Dance perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/logo3.png")
+
+                        
+
+
+                    div.card-content  
+                        p flexibility
+
+            div.card
+                h3 create your own step
+                 div.card-box
+                    div.card-img
+                        img(src="/static/logo3.png")
+
+                        
+
+
+                    div.card-content  
+                        p endurence
+
+            
+            div.card
+                h3 skilled teaching
+                 div.card-box
+                    div.card-img
+                        img(src="/static/logo3.png")
+
+                        
+
+
+                    div.card-content  
+                        p balancing
+
+
+                    
+
+
+    section#sponsorsection 
+        h2 our sponsers
+        div#sponsers
+             img(src="/static/R.jpg", alt="sponser", class="img")
+             img(src="/static/s.png", alt="sponser", class="img")
+             img(src="/static/m.jpg", alt="sponser", class="img")
+             img(src="/static/hp.jpg", alt="sponser", class="img")
+
+    footer#footer 
+        | copyright © 2022sachin'sdanceacademy.com | all rights are reserved      
+
+    script
+      include ../static/index.js
